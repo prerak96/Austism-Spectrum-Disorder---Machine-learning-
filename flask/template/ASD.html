@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Autism Spectrum Disorder</title>
+</head>
+<body>
+	<h1>Autism Spectrum Disorder</h1>
+	{% if result %}
+	   <p>{{result}}</p>
+	{% endif %}
+	<form method="post" action="/predict">
+		<label>A1</label><br>
+		<input type="text" name="A1"><br><br>
+
+		<label>A1</label><br>
+		<input type="text" name="A1"><br><br>
+
+		<label>A2</label><br>
+		<input type="text" name="A2"><br><br>
+
+		<label>A3</label><br>
+		<input type="text" name="A3"><br><br>
+
+		<label>A4</label><br>
+		<input type="text" name="A4"><br><br>
+
+		<label>A5</label><br>
+		<input type="text" name="A5"><br><br>
+
+		<label>A6</label><br>
+		<input type="text" name="A6"><br><br>
+
+		<label>A7</label><br>
+		<input type="text" name="A7"><br><br>
+
+		<label>A8</label><br>
+		<input type="text" name="A8"><br><br>
+
+		<label>A9</label><br>
+		<input type="text" name="A9"><br><br>
+
+		<label>A10</label><br>
+		<input type="text" name="A10"><br><br>
+
+		<label>Age</label><br>
+		<input type="text" name="Age Months"<br><br>
+		
+		<label>Sex</label><br>
+		<input type="text" name="Sex_m"<br><br>
+
+		<label>Latino</label><br>
+		<input type="text" name="Ethnicity_Latino"<br><br>
+
+		<label>NativeIndian</label><br>
+		<input type="text" name="Ethnicity_NativeIndian"<br><br>
+
+		<label>Others</label><br>
+		<input type="text" name="Ethnicity_Others"<br><br>
+
+		<label>Pacifica</label><br>
+		<input type="text" name="Ethnicity_Pacifica"<br><br>
+
+		<label>WhiteEuropean</label><br>
+		<input type="text" name="Ethnicity_White European"<br><br>
+
+		<label>asian</label><br>
+		<input type="text" name="Ethnicity_asian"<br><br>
+
+		<label>black</label><br>
+		<input type="text" name="Ethnicity_black"<br><br>
+
+		<label>middleeastern</label><br>
+		<input type="text" name="Ethnicity_middle eastern"<br><br>
+
+		<label>mixed</label><br>
+		<input type="text" name="Ethnicity_mixed"<br><br>
+
+		<label>southasian</label><br>
+		<input type="text" name="Ethnicity_south asian"<br><br>
+
+		<label>jaudice</label><br>
+		<input type="text" name="Jaundice_yes"<br><br>
+
+		<label>FamilymemwithASD</label><br>
+		<input type="text" name="Family mem with ASD_yes"<br><br>
+
+		<label>Healthcareprofessional</label><br>
+		<input type="text" name="Who completed the test_Health care 							professional"<br><br>
+
+		<label>Others</label><br>
+		<input type="text" name="Who completed the test_Others"<br><br>
+
+		<label>Self</label><br>
+		<input type="text" name="Who completed the test_Self"<br><br>
+
+		<label>familymember</label><br>
+		<input type="text" name="Who completed the test_family member"<br><br>
+	
+		<input type="submit" value="Predict"><br><br>
+	</form>
+</body>
+</html>
