@@ -18,14 +18,12 @@ Model Evaluation: The models are evaluated using appropriate metrics such as acc
 
 Interpretation: Feature importance analysis and model explainability techniques are employed to interpret the models and gain insights into the factors contributing to ASD diagnosis.
 
-Results
+Results -
 The machine learning models demonstrate promising performance in classifying individuals with ASD, achieving high accuracy and other evaluation metrics on both training and validation datasets. Feature importance analysis reveals key variables contributing to ASD diagnosis, shedding light on potential biomarkers or behavioral traits associated with the disorder.
 
 Future Directions
 Future directions for the project include:
 
 Incorporating additional data sources such as genetic information or neuroimaging data for improved predictive performance.
-
 Exploring the use of advanced machine learning techniques such as deep learning architectures for more nuanced analysis.
-
 Collaborating with healthcare professionals and researchers to validate the models in clinical settings and facilitate their integration into diagnostic protocols.
